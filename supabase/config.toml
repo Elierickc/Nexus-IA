@@ -1,0 +1,70 @@
+project_id = "abersearuhpmemxufzjq"
+
+[functions.sales-chat]
+verify_jwt = true
+
+[functions.generate-saas-prompt]
+verify_jwt = true
+
+[functions.mercadopago-webhook]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.apify-prospect]
+verify_jwt = true
+
+[functions.generate-whatsapp-message]
+verify_jwt = true
+
+[functions.check-subscription]
+verify_jwt = true
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.customer-portal]
+verify_jwt = true
+
+[functions.create-mercadopago-payment]
+verify_jwt = true
+
+[functions.verify-mercadopago-payment]
+verify_jwt = true
+
+[functions.google-business-search]
+verify_jwt = true
+
+[functions.suggest-features]
+verify_jwt = true
+
+[functions.generate-sales-approach]
+verify_jwt = true
+
+[functions.generate-app]
+verify_jwt = true
+
+[functions.send-expiration-reminder]
+verify_jwt = false
+
+[functions.generate-update-prompt]
+verify_jwt = true
+
+[functions.visual-identity-test]
+verify_jwt = true
+
+[functions.zapi-send-message]
+verify_jwt = true
+
+[functions.zapi-webhook]
+verify_jwt = false
+
+[functions.zapi-send-bulk]
+verify_jwt = true
+
+[functions.create-pix-payment]
+verify_jwt = false
+
+[functions.confirm-pix-payment]
+verify_jwt = false
